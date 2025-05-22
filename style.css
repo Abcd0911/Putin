@@ -161,3 +161,25 @@ footer {
     color: #dcdcdc;
     font-size: 0.9rem;
 }
+
+@media screen and (max-width: 768px) {
+    #about{
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 5%;
+    }    
+
+    .about-content {
+        width: 100%;
+    }
+
+    .about-content h2{
+        font-size: 3rem;
+    }
+
+    .about-image{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2rem;   
+    }
+}
